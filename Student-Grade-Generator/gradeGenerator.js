@@ -40,15 +40,14 @@ function studentMarks(){
         }
         // If the marks is not within the given range
         else{
-            // Outputs the grade on our page and prompts the user to enter valid marks
+            // Outputs the grade on our page and asks the user to enter valid marks
             document.getElementById("grade").innerHTML = "Please enter valid marks. Click the button to re-enter the marks";
-            studentMarks();
         }
     }  
-    // If the user doesn't input anything it prompts them to enter the marks
+    // If the user doesn't input anything it asks them to enter the marks
     else{
-        // document.getElementById("grade").innerHTML = "You have to enter the student\'s marks."
-        studentMarks();
+        document.getElementById("grade").innerHTML = "You have to enter the student\'s marks. Click the button to re-enter the marks"
+        
     }
 }
 
